@@ -35,8 +35,9 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
 }
-
-
+::-webkit-scrollbar {
+  display: none;
+}
 .add-prespective {
   -webkit-perspective: 1200px;
   -moz-perspective: 1200px;
